@@ -16,6 +16,10 @@ namespace DesignPatternsLibrary.StatePattern
         {
             _Context = context;
         }
+        /// <summary>
+        /// 通用执行方法
+        /// </summary>
+        /// <param name="value"></param>
         public abstract void handle(int value);
     }
 }
