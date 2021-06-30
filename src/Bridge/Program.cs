@@ -6,9 +6,10 @@ namespace Bridge
     {
         static void Main(string[] args)
         {
-            RemoteControl rc = new ConcreteRemoteControl();
-
-            rc.Implementor = new TCL();
+            RemoteControl rc = new ConcreteRemoteControl
+            {
+                Implementor = new TCL()
+            };
             rc.On();
             rc.SetChannel();
             rc.Off();

@@ -4,10 +4,16 @@ using System.Text;
 
 namespace Bridge
 {
+    /// <summary>
+    /// 遥控器
+    /// </summary>
     public abstract class RemoteControl
     {
 
         private TV _Implementor;
+        /// <summary>
+        /// 实现
+        /// </summary>
         public TV Implementor
         {
             get { return _Implementor; }
@@ -29,6 +35,10 @@ namespace Bridge
             Implementor.TurnChannel();
         }
     }
+
+    /// <summary>
+    /// 具体实现
+    /// </summary>
     public class ConcreteRemoteControl : RemoteControl
     {
         public override void SetChannel()
