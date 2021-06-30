@@ -22,13 +22,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "src\Singleton\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryMethod", "src\AbstractFactoryMethod\AbstractFactoryMethod.csproj", "{274CA32B-89FA-4F95-A594-89DC5FEBC9F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "src\Builder\Builder.csproj", "{DA1644A4-C4DF-4B5A-891A-2ABFF76A75A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "src\Builder\Builder.csproj", "{DA1644A4-C4DF-4B5A-891A-2ABFF76A75A8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "src\Prototype\Prototype.csproj", "{334A66CB-D023-4D6A-883F-6E56AF99D5D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "src\Bridge\Bridge.csproj", "{27ACD462-D032-4AB8-9765-2441F1E84124}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "src\Bridge\Bridge.csproj", "{27ACD462-D032-4AB8-9765-2441F1E84124}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "src\Adapter\Adapter.csproj", "{CDAFB360-10EB-4A5D-A796-FE8834975F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "src\Adapter\Adapter.csproj", "{CDAFB360-10EB-4A5D-A796-FE8834975F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "src\Decorator\Decorator.csproj", "{16B8047B-7B20-418F-8D33-0A846F214079}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,6 +66,10 @@ Global
 		{CDAFB360-10EB-4A5D-A796-FE8834975F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDAFB360-10EB-4A5D-A796-FE8834975F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDAFB360-10EB-4A5D-A796-FE8834975F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B8047B-7B20-418F-8D33-0A846F214079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B8047B-7B20-418F-8D33-0A846F214079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B8047B-7B20-418F-8D33-0A846F214079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B8047B-7B20-418F-8D33-0A846F214079}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{334A66CB-D023-4D6A-883F-6E56AF99D5D9} = {3E9B3121-8B4B-450E-8DCF-E5E1C1E9F010}
 		{27ACD462-D032-4AB8-9765-2441F1E84124} = {76F4F11D-5926-4426-A701-A5E612CA8A88}
 		{CDAFB360-10EB-4A5D-A796-FE8834975F73} = {76F4F11D-5926-4426-A701-A5E612CA8A88}
+		{16B8047B-7B20-418F-8D33-0A846F214079} = {76F4F11D-5926-4426-A701-A5E612CA8A88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B01A3FFC-C9A4-4703-9881-76FA0D2D8192}
