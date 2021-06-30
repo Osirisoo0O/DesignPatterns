@@ -22,7 +22,7 @@ namespace Decorator
 
     public abstract class Decorator : Phone
     {
-        private Phone phone;
+        private readonly Phone phone;
 
         public Decorator(Phone p)
         {
